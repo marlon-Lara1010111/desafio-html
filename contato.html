@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Clínica Médica</title>
+</head>
+<body>
+    <section id="content">
+        <img src="Untitled.png">
+        <p>Entre em contato conosco:</p>
+        <ul>
+            <li>Telefone: (XX) XXXX-XXXX</li>
+            <li>WhatsApp: (XX) XXXXX-XXXX</li>
+            <li>Endereço: Rua XYZ, Número 123, Cidade</li>
+        </ul>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.67890!2d-XX.XXXXX!3dXX.XXXXX!4m15!1m6!3m5!1s0xXXX0X:XxxxxxXXXXXXxxxxX!2sYour+Location!8m2!3dXX.XXXXX!4d-XX.XXXXX!3m3!1sYour+Location!2sCity!5e0!3m2!1sen!2suk!4vXXXXXXXXXXXXX" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <form action="processar_formulario.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required> <br> <br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required> <br> <br>
+
+            <label for="assunto">Assunto:</label>
+            <input type="text" id="assunto" name="assunto" required> <br> <br>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea> <br> <br>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </section>
+</body>
+</html>
